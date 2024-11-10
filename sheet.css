@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+header {
+    background-color: red;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 5px 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.banner {
+    background: url('IN-en-20241028-TRIFECTA-perspective_2f496d82-4466-44ef-b581-9d69138a2914_large.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.banner h2 {
+    font-size: 2.5em;
+}
+
+.banner button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.banner button:hover {
+    background-color: white;
+    color: blue;
+}
+
+.movie-section {
+    padding: 20px;
+}
+
+.movie-section h2 {
+    margin-bottom: 20px;
+}
+
+.movie-grid {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie-card {
+    width: 150px;
+    flex-grow: 1;
+}
+
+.movie-card img {
+    width: 100%;
+    border-radius: 25px;
+}
+footer {
+    background-color: red;
+    padding: 10px;
+    text-align: center;
+    }
+    
+footer p {
+        margin: 0;
+}
+    
+     
